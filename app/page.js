@@ -1,12 +1,13 @@
 import Image from 'next/image';
 import Navbar from './components/navbar/Navbar'
 import Button from './components/button/Button';
+import Card from './components/card/Card'
 export default function Home() {
   return (
-    <div className="bg-[#2b2b2b] h-screen min-w-full z-0  text-white">
+    <div className="bg-[#2b2b2b]  min-w-full z-0  text-white">
       <Navbar />
-
-      <div className="px-[125px] py-[80px] grid grid-cols-1 lg:grid-cols-2 gap-[45px] ">
+<div className="px-[125px] py-[80px]">
+      <div className=" grid grid-cols-1 lg:grid-cols-2 gap-[45px] ">
         <div className="p-2">
           <h1 className="text-[28px] md:text-[38px] lg:text-[68px] font-[600]  leading-tight text-balance ">Discover <span className=""></span> Digital Art & <span className=""></span> Collect NFTs</h1>
           <p className="text-[22px] font-[400] pt-3">NFT marketplace UI created with Anima for Figma. Collect, buy and sell art from more than 20k NFT artists.</p>
@@ -42,8 +43,16 @@ export default function Home() {
           </div>
         </div>
       </div>
+      {/* ///////////////////////////////////// */}
+      <div className="pt-[80px] pb-[80px]">
+        <h1 className="text-[28px] lg:text-[38px] font-[600] ">Trending Collections</h1>
+        <p className="text-[16px] lg:text-[22px] font-[400] ">Checkout our Weekly Updated Trending Collection</p>
+        <div className="">
+          <Card first='/public/Primary Photo Placeholder.png' />
+        </div>
+        </div>
    
-    
+    </div>
     </div>
   );
 }

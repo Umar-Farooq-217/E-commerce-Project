@@ -9,8 +9,8 @@ export default function Home() {
 <div className="px-[125px] py-[80px]">
       <div className=" grid grid-cols-1 lg:grid-cols-2 gap-[45px] ">
         <div className="p-2">
-          <h1 className="text-[28px] md:text-[38px] lg:text-[68px] font-[600]  leading-tight text-balance ">Discover <span className=""></span> Digital Art & <span className=""></span> Collect NFTs</h1>
-          <p className="text-[22px] font-[400] pt-3">NFT marketplace UI created with Anima for Figma. Collect, buy and sell art from more than 20k NFT artists.</p>
+          <h1 className="text-[28px] md:text-[38px] lg:text-[68px] font-[600]  leading-tight text-balance ">Discover <span className=""><br className='hidden lg:block' /></span> Digital Art & <span className=""><br className='hidden lg:block' /></span> Collect NFTs</h1>
+          <p className="text-[22px] font-[400] pt-3">NFT marketplace UI created with Anima for Figma. <br className='hidden lg:block' />Collect, buy and sell art from more than 20k NFT artists.</p>
           <div className="mt-6">
 
             <Button className='bg-[#A259FF] h-[60px] w-[224px] ' img='RocketLaunch.svg' title='Get Started' />
@@ -44,7 +44,7 @@ export default function Home() {
         </div>
       </div>
       {/* ///////////////////////////////////// */}
-      <div className="pt-[80px] pb-[80px]">
+      <div className="py-[80px]">
         <h1 className="text-[28px] lg:text-[38px] font-[600] ">Trending Collections</h1>
         <p className="text-[16px] lg:text-[22px] font-[400] ">Checkout our Weekly Updated Trending Collection</p>
         <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 my-16">

@@ -61,6 +61,12 @@ export default function Home() {
         <p className="text-[16px] lg:text-[22px] font-[400] ">Checkout our Weekly Updated Trending Collection</p>
         <Button />
             </div>
+
+<div className="">
+  <TopCard/>
+</div>
+
+
         </div>
    
     </div>

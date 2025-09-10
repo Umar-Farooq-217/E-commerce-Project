@@ -63,8 +63,19 @@ export default function Home() {
         <Button />
             </div>
 
-<div className="">
+<div className="grid gap-6 lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1">
   <TopCard first='/Artist Avatar (2).png' count='1' heading='Keepitreal'  />
+  <TopCard first='/Artist Avatar (1).png' count='2' heading='DigiLab'  />
+  <TopCard first='/Artist Avatar.png' count='3' heading='GravityOne'  />
+  <TopCard first='/Avatar Placeholder-6.png' count='4' heading='Juanie'  />
+  <TopCard first='/Artist Avatar22.png' count='5' heading='BlueWhale'  />
+  <TopCard first='/Avatar Placeholder00.png' count='6' heading='Mr Fox'  />
+  <TopCard first='/Avatar Placeholder-122.png' count='7' heading='Shroomie'  />
+  <TopCard first='/Avatar Placeholder-222.png' count='8' heading='Robotica'  />
+  <TopCard first='/Avatar Placeholder-4.png' count='9' heading='Animakid'  />
+  <TopCard first='/Avatar Placeholder-5.png' count='10' heading='Dotgu'  />
+  <TopCard first='/Avatar Placeholder-6.png' count='11' heading='Giblier'  />
+  <TopCard first='/Artist Avatar (2).png' count='12' heading='Keepitreal'  />
 </div>
 
 

@@ -2,6 +2,7 @@ import Image from 'next/image';
 import Navbar from './components/navbar/Navbar'
 import Button from './components/button/Button';
 import Card from './components/card/Card'
+import TopCard from './components/topCard/TopCard'
 export default function Home() {
   return (
     <div className="bg-[#2b2b2b]  min-w-full z-0  text-white">
@@ -63,7 +64,7 @@ export default function Home() {
             </div>
 
 <div className="">
-  <TopCard/>
+  <TopCard first='/Artist Avatar (2).png' count='1' heading='Keepitreal'  />
 </div>
 
 

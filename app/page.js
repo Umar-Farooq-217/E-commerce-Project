@@ -57,13 +57,16 @@ export default function Home() {
 
         {/* 3rd///////////////////////////////// */}
         <div className="">
+            <div className="flex justify-between items-center">
+              <div className="">
             <h1 className="text-[28px] lg:text-[38px] font-[600] pt-7">Top Creators</h1>
-            <div className="">
         <p className="text-[16px] lg:text-[22px] font-[400] ">Checkout our Weekly Updated Trending Collection</p>
-        <Button />
+
+              </div>
+        <Button className='border-[#A259FF] border-[2px] px-[50px] py-3 ' img='/b rocket.svg' title='View Rankings' />
             </div>
 
-<div className="grid gap-6 lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1">
+<div className="grid gap-6 lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 mt-16">
   <TopCard first='/Artist Avatar (2).png' count='1' heading='Keepitreal'  />
   <TopCard first='/Artist Avatar (1).png' count='2' heading='DigiLab'  />
   <TopCard first='/Artist Avatar.png' count='3' heading='GravityOne'  />

@@ -30,7 +30,7 @@ export default function Navbar() {
             <li className='py-10 lg:py-0   pt-10 lg:pt-0    '><Link className=''  href="/" >Marketplace </Link></li>
             <li className='py-10 lg:py-0   '><Link  href="/" >Rankings </Link></li>
             <li className='py-10 lg:py-0     '><Link  href="/" >Connect a Wallet </Link></li>
-            <li className='py-10 lg:py-0     '><Link  href="/" ><Button className='bg-[#9747FF]' img='/User.svg' title='Sign Up'/> </Link></li>
+            <li className='py-10 lg:py-0     '><Link  href="/" ><Button className='bg-[#9747FF] px-[30px] py-3 ' img='/User.svg' title='Sign Up'/> </Link></li>
            
         </ul>
       

@@ -85,6 +85,9 @@ export default function Home() {
         {/* 4th//////////////////////////////// */}
         <div className="py-[80px]">
            <h1 className="text-[28px] lg:text-[38px] font-[600] ">Browse Categories</h1>
+           <div className="">
+            
+           </div>
 
 
         </div>

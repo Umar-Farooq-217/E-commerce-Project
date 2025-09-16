@@ -3,6 +3,7 @@ import Navbar from './components/navbar/Navbar'
 import Button from './components/button/Button';
 import Card from './components/card/Card'
 import TopCard from './components/topCard/TopCard'
+import BrowseCard from './components/browseCard/BrowseCard'
 export default function Home() {
   return (
     <div className="bg-[#2b2b2b]  min-w-full z-0  text-white">
@@ -86,7 +87,7 @@ export default function Home() {
         <div className="py-[80px]">
            <h1 className="text-[28px] lg:text-[38px] font-[600] ">Browse Categories</h1>
            <div className="">
-            
+            <BrowseCard  className='bg-[url(/sky.png)] bg-cover bg-no-repeat bg-center  ' src='/PaintBrush.png' heading='Art'  />
            </div>
 
 

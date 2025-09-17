@@ -86,8 +86,15 @@ export default function Home() {
         {/* 4th//////////////////////////////// */}
         <div className="py-[80px]">
            <h1 className="text-[28px] lg:text-[38px] font-[600] ">Browse Categories</h1>
-           <div className="">
-            <BrowseCard  className='bg-[url(/sky.png)] bg-cover bg-no-repeat bg-center  ' src='/PaintBrush.png' heading='Art'  />
+           <div className="grid lg:grid-cols-4 gap-8">
+            <BrowseCard  bgImage='/sky.png' src='/PaintBrush.png' heading='Art'  />
+            <BrowseCard   bgImage='/monkey.png' src='/Swatches.png' heading='Collectibles'  />
+            <BrowseCard  bgImage='/flower.png' src='/MusicNotes.png' heading='Music'  />
+            <BrowseCard   bgImage='/old.png' src='/Camera.png' heading='Photography'  />
+            <BrowseCard  bgImage='/walk.png' src='/VideoCamera.png' heading='video'  />
+            <BrowseCard   bgImage='/key.png' src='/MagicWand.png' heading='Utility'  />
+            <BrowseCard   bgImage='/ball.png' src='/Basketball.png' heading='Sport'  />
+            <BrowseCard    bgImage='/badal.png' src='/Planet.png' heading='Virtual Worlds'  />
            </div>
 
 

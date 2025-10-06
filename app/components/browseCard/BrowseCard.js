@@ -1,15 +1,16 @@
 import Image from "next/image";
 import React from "react";
+import './BrowseCard.css'
 
-export default function BrowseCard({  src, heading, bgImage }) {
+export default function BrowseCard({  src, heading }) {
   return (
-    <div className="rounded-[20px] bg-[#3b3b3b] ">
+    <div className="rounded-[20px] bg-[#3b3b3b] overflow-hidden ">
     
-      <div className="relative h-[240px] flex justify-center items-center ">
+      <div className={`h-[240px] flex justify-center items-center  overflow-hidden relative  before:absolute before:content-[''] before:w-16 before:h-16 before:bg-[url('/small-image.png')] before:bg-cover before:bg-center before:top-0 before:left-0  `}>
      
        
         <Image
-          className="relative z-10 h-[100px] w-[100px] object-cover"
+          className=" img w-full h-[240px] blur-sm   "
           width={100}
           height={100}
           alt={heading}

@@ -87,14 +87,14 @@ export default function Home() {
         <div className="py-[80px]">
            <h1 className="text-[28px] lg:text-[38px] font-[600] ">Browse Categories</h1>
            <div className="grid lg:grid-cols-4 gap-8">
-            <BrowseCard  bgImage='/sky.png' src='/PaintBrush.png' heading='Art'  />
-            <BrowseCard   bgImage='/monkey.png' src='/Swatches.png' heading='Collectibles'  />
-            <BrowseCard  bgImage='/flower.png' src='/MusicNotes.png' heading='Music'  />
-            <BrowseCard   bgImage='/old.png' src='/Camera.png' heading='Photography'  />
-            <BrowseCard  bgImage='/walk.png' src='/VideoCamera.png' heading='video'  />
-            <BrowseCard   bgImage='/key.png' src='/MagicWand.png' heading='Utility'  />
-            <BrowseCard   bgImage='/ball.png' src='/Basketball.png' heading='Sport'  />
-            <BrowseCard    bgImage='/badal.png' src='/Planet.png' heading='Virtual Worlds'  />
+            <BrowseCard  src='/sky.png'  heading='Art'  />
+            <BrowseCard   src='/monkey.png'  heading='Collectibles'  />
+            <BrowseCard  src='/flower.png'  heading='Music'  />
+            <BrowseCard   src='/old.png' heading='Photography'  />
+            <BrowseCard  src='/walk.png'  heading='video'  />
+            <BrowseCard   src='/key.png' heading='Utility'  />
+            <BrowseCard   src='/ball.png' heading='Sport'  />
+            <BrowseCard    src='/badal.png'  heading='Virtual Worlds'  />
            </div>
 
 

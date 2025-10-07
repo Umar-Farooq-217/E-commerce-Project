@@ -6,7 +6,7 @@ export default function BrowseCard({  src, heading }) {
   return (
     <div className="rounded-[20px] bg-[#3b3b3b] overflow-hidden ">
     
-      <div className={`h-[240px] flex justify-center items-center  overflow-hidden relative  before:absolute before:content-[''] before:w-16 before:h-16 before:bg-[url('/small-image.png')] before:bg-cover before:bg-center before:top-0 before:left-0  `}>
+      <div className={`h-[240px] flex justify-center items-center  overflow-hidden   `}>
      
        
         <Image

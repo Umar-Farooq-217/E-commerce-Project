@@ -86,7 +86,7 @@ export default function Home() {
         {/* 4th//////////////////////////////// */}
         <div className="py-[80px]">
            <h1 className="text-[28px] lg:text-[38px] font-[600] ">Browse Categories</h1>
-           <div className="grid lg:grid-cols-4 gap-8">
+           <div className="grid lg:grid-cols-4 gap-8 py-10">
             <BrowseCard  src='/sky.png'  heading='Art'  />
             <BrowseCard   src='/monkey.png'  heading='Collectibles'  />
             <BrowseCard  src='/flower.png'  heading='Music'  />

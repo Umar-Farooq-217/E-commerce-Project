@@ -4,11 +4,12 @@ import Button from './components/button/Button';
 import Card from './components/card/Card'
 import TopCard from './components/topCard/TopCard'
 import BrowseCard from './components/browseCard/BrowseCard'
+import DiscoverCard from './components/discoverCard/DiscoverCard'
 export default function Home() {
   return (
     <div className="bg-[#2b2b2b]  min-w-full z-0  text-white">
       <Navbar />
-      <div className="px-[125px] py-[80px]">
+      <div className="px-[125px] pt-[80px]">
         <div className=" grid grid-cols-1 lg:grid-cols-2 gap-[45px] py-7 ">
           <div className="p-2">
             <h1 className="text-[28px] md:text-[38px] lg:text-[68px] font-[600]  leading-tight text-balance ">Discover <span className=""><br className='hidden lg:block' /></span> Digital Art & <span className=""><br className='hidden lg:block' /></span> Collect NFTs</h1>
@@ -96,6 +97,19 @@ export default function Home() {
             <BrowseCard   src='/ball.png' heading='Sport' front='/Basketball.png' />
             <BrowseCard    src='/badal.png'  heading='Virtual Worlds' front='/Planet.png'  />
            </div>
+
+
+        </div>
+
+        {/* 5th//////////////////////////// */}
+        <div className="py-[80px]  ">
+           <h1 className="text-[28px] lg:text-[38px] font-[600] ">Discover More NFTs</h1>
+              <p className="text-[16px] lg:text-[22px] font-[400] ">Explore New Trending NFTs</p>
+              <div className="">
+                <DiscoverCard src='/galaxy.png' heading='Distant Galaxy' logo='' />
+                <DiscoverCard />
+                <DiscoverCard />
+              </div>
 
 
         </div>

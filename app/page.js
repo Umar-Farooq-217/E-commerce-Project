@@ -105,15 +105,17 @@ export default function Home() {
         <div className="py-[80px]  ">
            <h1 className="text-[28px] lg:text-[38px] font-[600] ">Discover More NFTs</h1>
               <p className="text-[16px] lg:text-[22px] font-[400] ">Explore New Trending NFTs</p>
-              <div className="">
-                <DiscoverCard src='/galaxy.png' heading='Distant Galaxy' logo='' />
-                <DiscoverCard />
-                <DiscoverCard />
+              <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-[30px] mt-10">
+                <DiscoverCard img='/galaxy.png' heading='Distant Galaxy' logo='/moon.png' name='MoonDancer' />
+                <DiscoverCard img='/life.png' heading='Life on Edena' logo='/nebulakid.png' name='NebulaKid' />
+                <DiscoverCard img='/astro.png' heading='AstroFiction' logo='/spaceone.png' name='SpaceOne' />
               </div>
 
 
         </div>
-
+      </div>
+      <div className="">
+        
       </div>
     </div>
   );

@@ -1,17 +1,17 @@
 import React from 'react'
 import Image from 'next/image'
 
-export default function DiscoverCard(src , logo , name  , heading ) {
+export default function DiscoverCard(props ) {
   return (
-    <div className='rounded-[20px]'>
-     <Image src={src} width={100} height={100} alt='Image' />
-     <div className="">
-     <h1>{heading}</h1>
-     <div className="">
-         <Image src={logo} width={10} height={10} alt='Image' />
-         <p>{name}</p>
+    <div className=''>
+     <Image className='w-full h-[296px] rounded-tl-[20px] rounded-tr-[20px] object-cover ' src={props.img} width={100} height={100} alt='Image' />
+     <div className="bg-[#3b3b3b] pt-[20px] px-[30px] pb-[25px] rounded-bl-[20px] rounded-br-[20px] ">
+     <h1 className='text-[22px] font-semibold '>{props.heading}</h1>
+     <div className="flex items-center pt-1">
+         <Image src={props.logo} width={24} height={24} alt='Image' />
+         <p className='text-[16px] pl-2 font-normal text-[#FFFFFF]'>{props.name}</p>
      </div>
-     <div className="">
+     <div className="flex justify-between pt-5">
         <div className="">
             <p className="text-[12px] text-[#858584] ">Price</p>
             <p className="text-[16px] ">1.63 ETH</p>

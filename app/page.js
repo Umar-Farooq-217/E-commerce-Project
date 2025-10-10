@@ -114,7 +114,10 @@ export default function Home() {
 
         </div>
       </div>
-      <div className="bg-[url('/mushrooms.png')] h-[640px] w-full bg-no-repeat bg-cover  ">
+      <div className="bg-[url('/mushrooms.png')] h-[640px] w-full bg-no-repeat bg-cover bg-[center_top_40%]   ">
+      <div className="bg-gradient-to-t from-[#A259FF]/70 to-transparent w-full h-full">
+        
+      </div>
         
       </div>
     </div>

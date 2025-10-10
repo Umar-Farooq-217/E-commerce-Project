@@ -114,7 +114,7 @@ export default function Home() {
 
         </div>
       </div>
-      <div className="">
+      <div className="bg-[url('/mushrooms.png')] h-[640px] w-full bg-no-repeat bg-cover  ">
         
       </div>
     </div>

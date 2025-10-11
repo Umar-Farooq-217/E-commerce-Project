@@ -4,7 +4,7 @@ import Image from 'next/image'
 export default function DiscoverCard(props ) {
   return (
     <div className=''>
-     <Image className='w-full h-[296px] rounded-tl-[20px] rounded-tr-[20px] object-cover ' src={props.img} width={100} height={100} alt='Image' />
+     <Image className='w-full h-[296px] rounded-tl-[20px] rounded-tr-[20px] object-cover ' src={props.img} width={400} height={400} alt='Image' />
      <div className="bg-[#3b3b3b] pt-[20px] px-[30px] pb-[25px] rounded-bl-[20px] rounded-br-[20px] ">
      <h1 className='text-[22px] font-semibold '>{props.heading}</h1>
      <div className="flex items-center pt-1">

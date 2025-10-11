@@ -5,6 +5,7 @@ import Card from './components/card/Card'
 import TopCard from './components/topCard/TopCard'
 import BrowseCard from './components/browseCard/BrowseCard'
 import DiscoverCard from './components/discoverCard/DiscoverCard'
+import WorksCard from './components/worksCard/WorksCard'
 import Clock from './components/clock/Clock'
 export default function Home() {
   return (
@@ -36,7 +37,7 @@ export default function Home() {
             </div>
           </div>
           <div className="bg-[#3b3b3b] mb-4 rounded-xl">
-            <Image className='w-full object-cover rounded-xl  h-[401px]' src='/space.png' width={510} height={401} alt="space man Image" />
+            <Image className='w-full object-cover rounded-tl-xl rounded-tr-xl  h-[401px]' src='/space.png' width={510} height={401} alt="space man Image" />
             <div className=" px-6 py-6 ">
               <h1 className="text-[22px] font-semibold ">Space Walking</h1>
               <div className="flex mt-3">
@@ -123,6 +124,8 @@ export default function Home() {
 
         </div>
       </div>
+
+      {/* 6/////////////////// */}
       <div className="bg-[url('/mushrooms.png')] h-[640px] w-full bg-no-repeat bg-cover bg-[center_top_40%]   ">
         <div className="bg-gradient-to-t from-[#A259FF]/90 to-transparent w-full h-full px-[125px] flex justify-between items-end pb-12">
           <div className="">
@@ -144,10 +147,39 @@ export default function Home() {
 
       </div>
 
+{/* 7///////////////////////// */}
 
-<div className="  ">
-  
+<div className="py-[80px] px-[125px]">
+     <h1 className="text-[28px] lg:text-[38px] font-[600] ">How It Works </h1>
+              <p className="text-[16px] lg:text-[22px] font-[400] ">Find Out How To Get Started</p>
+
+              <div className="grid md:grid-cols-3 sm:grid-cols-1 gap-7 mt-12">
+                <WorksCard src='/Icon.png' heading='Setup Your Wallet' pera='Set up your wallet of choice. Connect it to the Animarket by clicking the wallet icon in the top right corner.' />
+                <WorksCard src='/Icon (1).png' heading='Create Collections' pera='Upload your work and setup your collection. Add a description, social links and floor price.' />
+                <WorksCard src='/Icon (2).png' heading='Start Earning' pera='Choose between auctions and fixed-price listings. Start earning by selling your NFTs or trading others.' />
+              </div>
+
+
 </div>
+
+{/* 8th/////////////////// */}
+<div className="p-16 mt-20 mx-[125px] bg-[#3B3B3B] rounded-[20px]  grid md:grid-cols-2 sm:grid-cols-1 gap-20 ">
+  <div className="">
+      <Image src='/Astronauts.png' className=' w-full h-[310px] object-cover rounded-[20px]  ' width={240} height={240} alt='Image' />
+  </div>
+  <div className="">
+    <h1 className="text-[38px] font-semibold">Join Our Weekly Digest</h1>
+    <p className="text-[22px] font-[400]">Get exclusive promotions & updates straight to your inbox.</p>
+    <div className="flex">
+      <input type="text" name="" id="" className='py-4 pl-5 text-[16px] font-semibold outline-none text-black rounded-[20px]' placeholder='Enter your email here' />
+      <button className='flex justify-center items-center gap-4 bg-[#A259FF] py-4 px-16 rounded-[20px] relative right-9 '><img src="/EnvelopeSimple.png" className='w-[20px] h-[20px] ' alt="Icon" /> <span className="font-semibold text-[16px]">Subscribe</span></button>
+    </div>
+  </div>
+
+</div>
+
+
+
 
 
 

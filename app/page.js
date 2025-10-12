@@ -7,6 +7,7 @@ import BrowseCard from './components/browseCard/BrowseCard'
 import DiscoverCard from './components/discoverCard/DiscoverCard'
 import WorksCard from './components/worksCard/WorksCard'
 import Clock from './components/clock/Clock'
+import Footer from './components/footer/Footer'
 export default function Home() {
   return (
     <div className="bg-[#2b2b2b]  min-w-full z-0  text-white">
@@ -163,20 +164,23 @@ export default function Home() {
 </div>
 
 {/* 8th/////////////////// */}
-<div className="p-16 mt-20 mx-[125px] bg-[#3B3B3B] rounded-[20px]  grid md:grid-cols-2 sm:grid-cols-1 gap-20 ">
+<div className="p-16 mt-20 mx-[125px] bg-[#3B3B3B] rounded-[20px]  grid md:grid-cols-2 sm:grid-cols-1 gap-20  ">
   <div className="">
       <Image src='/Astronauts.png' className=' w-full h-[310px] object-cover rounded-[20px]  ' width={240} height={240} alt='Image' />
   </div>
-  <div className="">
+  <div className="p-5">
     <h1 className="text-[38px] font-semibold">Join Our Weekly Digest</h1>
     <p className="text-[22px] font-[400]">Get exclusive promotions & updates straight to your inbox.</p>
-    <div className="flex">
+    <div className="flex mt-12">
       <input type="text" name="" id="" className='py-4 pl-5 text-[16px] font-semibold outline-none text-black rounded-[20px]' placeholder='Enter your email here' />
       <button className='flex justify-center items-center gap-4 bg-[#A259FF] py-4 px-16 rounded-[20px] relative right-9 '><img src="/EnvelopeSimple.png" className='w-[20px] h-[20px] ' alt="Icon" /> <span className="font-semibold text-[16px]">Subscribe</span></button>
     </div>
   </div>
 
 </div>
+
+
+<Footer/>
 
 
 

@@ -10,9 +10,9 @@ import Clock from './components/clock/Clock'
 import Footer from './components/footer/Footer'
 export default function Home() {
   return (
-    <div className="bg-[#2b2b2b]  min-w-full z-0  text-white">
+    <div className="lg:bg-[#2b2b2b] md:bg-black sm:bg-green-300  min-w-full z-0  text-white">
       <Navbar />
-      <div className="px-[125px] pt-[80px]">
+      <div className="lg:px-[125px] lg:pt-[80px] md:py-7 md:px-20">
         <div className=" grid grid-cols-1 lg:grid-cols-2 gap-[45px] py-7 ">
           <div className="p-2">
             <h1 className="text-[28px] md:text-[38px] lg:text-[68px] font-[600]  leading-tight text-balance ">Discover <span className=""><br className='hidden lg:block' /></span> Digital Art & <span className=""><br className='hidden lg:block' /></span> Collect NFTs</h1>
@@ -50,10 +50,10 @@ export default function Home() {
           </div>
         </div>
         {/* ///////////////////////////////////// */}
-        <div className="py-[80px]">
+        <div className="lg:py-[80px] md:py-7">
           <h1 className="text-[28px] lg:text-[38px] font-[600] pt-7">Trending Collections</h1>
           <p className="text-[16px] lg:text-[22px] font-[400] ">Checkout our Weekly Updated Trending Collection</p>
-          <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 my-16">
+          <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-4 gap-y-6 my-16">
             <Card first='/Primary Photo Placeholder.png' second='/Secondary Photo Placeholder.png' third='/Secondary Photo Placeholder-1.png' four='/Avatar Placeholder.png' heading='DSGN Animals' pera='MrFox' />
             <Card first='/Primary Photo Placeholder-1.png' second='/Secondary Photo Placeholder-2.png' third='/Secondary Photo Placeholder-3.png' four='/Avatar Placeholder-1.png' heading='Magic Mashrooms' pera='Shroomie' />
             <Card first='/Primary Photo Placeholder-2.png' second='/Secondary Photo Placeholder-4.png' third='/Secondary Photo Placeholder-5.png' four='/Avatar Placeholder-2.png' heading='Disco Machine' pera='Bekind2Robots' />
@@ -61,7 +61,7 @@ export default function Home() {
         </div>
 
         {/* 3rd///////////////////////////////// */}
-        <div className="py-[80px] ">
+        <div className="lg:py-[80px] md:py-7 ">
           <div className="flex justify-between items-center">
             <div className="">
               <h1 className="text-[28px] lg:text-[38px] font-[600] ">Top Creators</h1>
@@ -88,7 +88,7 @@ export default function Home() {
         </div>
 
         {/* 4th//////////////////////////////// */}
-        <div className="py-[80px]">
+        <div className="lg:py-[80px] md:py-7">
           <h1 className="text-[28px] lg:text-[38px] font-[600] ">Browse Categories</h1>
           <div className="grid lg:grid-cols-4 gap-8 py-10">
             <BrowseCard src='/sky.png' front='/PaintBrush.png' heading='Art' />
@@ -105,7 +105,7 @@ export default function Home() {
         </div>
 
         {/* 5th//////////////////////////// */}
-        <div className="py-[80px]  ">
+        <div className="lg:py-[80px] md:py-10  ">
           <div className="flex justify-between items-center">
             <div className="">
               <h1 className="text-[28px] lg:text-[38px] font-[600] ">Discover More NFTs</h1>
@@ -150,11 +150,11 @@ export default function Home() {
 
 {/* 7///////////////////////// */}
 
-<div className="py-[80px] px-[125px]">
+<div className="lg:py-[80px] md:py-10 lg:px-[125px] md:px-20">
      <h1 className="text-[28px] lg:text-[38px] font-[600] ">How It Works </h1>
               <p className="text-[16px] lg:text-[22px] font-[400] ">Find Out How To Get Started</p>
 
-              <div className="grid md:grid-cols-3 sm:grid-cols-1 gap-7 mt-12">
+              <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-7 mt-12">
                 <WorksCard src='/Icon.png' heading='Setup Your Wallet' pera='Set up your wallet of choice. Connect it to the Animarket by clicking the wallet icon in the top right corner.' />
                 <WorksCard src='/Icon (1).png' heading='Create Collections' pera='Upload your work and setup your collection. Add a description, social links and floor price.' />
                 <WorksCard src='/Icon (2).png' heading='Start Earning' pera='Choose between auctions and fixed-price listings. Start earning by selling your NFTs or trading others.' />
@@ -164,16 +164,16 @@ export default function Home() {
 </div>
 
 {/* 8th/////////////////// */}
-<div className="p-16 mt-20 mx-[125px] bg-[#3B3B3B] rounded-[20px]  grid md:grid-cols-2 sm:grid-cols-1 gap-20  ">
+<div className=" lg:p-16 md:py-10 mt-20 lg:mx-[125px] md:px-[30px] bg-[#3B3B3B] rounded-[20px]  grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 lg:gap-20 md:gap-[30px]  ">
   <div className="">
-      <Image src='/Astronauts.png' className=' w-full h-[310px] object-cover rounded-[20px]  ' width={240} height={240} alt='Image' />
+      <Image src='/Astronauts.png' className=' w-full h-[310px]  object-cover rounded-[20px]  ' width={240} height={240} alt='Image' />
   </div>
   <div className="p-5">
     <h1 className="text-[38px] font-semibold">Join Our Weekly Digest</h1>
     <p className="text-[22px] font-[400]">Get exclusive promotions & updates straight to your inbox.</p>
-    <div className="flex mt-12">
-      <input type="text" name="" id="" className='py-4 pl-5 text-[16px] font-semibold outline-none text-black rounded-[20px]' placeholder='Enter your email here' />
-      <button className='flex justify-center items-center gap-4 bg-[#A259FF] py-4 px-16 rounded-[20px] relative right-9 '><img src="/EnvelopeSimple.png" className='w-[20px] h-[20px] ' alt="Icon" /> <span className="font-semibold text-[16px]">Subscribe</span></button>
+    <div className="lg:flex block mt-12">
+      <input type="text" name="" id="" className='h-16  pl-5 lg:w-auto w-full text-[16px] font-semibold outline-none text-black rounded-[20px]' placeholder='Enter your email here' />
+      <button className='flex justify-center items-center gap-2 bg-[#A259FF] h-16  px-19 rounded-[20px] lg:relative lg:right-9 lg:mt-0 md:w-full md:mt-3 '><img src="/EnvelopeSimple.png" className='w-[20px] h-[20px] ' alt="Icon" /> <span className="font-semibold text-[16px]">Subscribe</span></button>
     </div>
   </div>
 

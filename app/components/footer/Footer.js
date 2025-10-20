@@ -3,9 +3,9 @@ import Image from 'next/image'
 
 export default function Footer() {
   return (
-    <div className="bg-[#3B3B3B] py-10 lg:px-[125px] md:px-[80] px-5 mt-16">
+    <div className="bg-[#3B3B3B] py-10 lg:px-[125px] md:px-[80]  lg:mt-16">
     <div className='  grid lg:grid-cols-2 grid-cols-1 gap-8  '>
-     <div className="flex gap-8 px-6 ">
+     <div className="lg:flex block gap-8 px-6 ">
        <div className=" ">
 <div className="lg:flex block items-center gap-2" >
     <Image src='/Storefront.png' width={32} height={32} alt='Image' />
@@ -32,7 +32,7 @@ export default function Footer() {
          <p className="text-base text-[#CCCCCC] pt-7">Get exclusive promotions & updates straight to your inbox.</p>
           <div className="flex mt-4">
       <input type="text" name="" id="" className='py-4 pl-5 text-[16px] font-semibold outline-none text-black rounded-[20px]' placeholder='Enter your email here' />
-      <button className='flex justify-center items-center gap-4 bg-[#A259FF] py-4 px-16 rounded-[20px] relative right-9 '><img src="/EnvelopeSimple.png" className='w-[20px] h-[20px] ' alt="Icon" /> <span className="font-semibold text-[16px]">Subscribe</span></button>
+      <button className='flex justify-center items-center gap-4 bg-[#A259FF] py-4 px-16 rounded-[20px] relative right-9 '> <span className="font-semibold text-[16px]">Subscribe</span></button>
     </div>
       </div>
     </div>

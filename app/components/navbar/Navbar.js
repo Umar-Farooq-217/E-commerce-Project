@@ -15,11 +15,11 @@ export default function Navbar() {
  
   return (
     <nav className='block lg:flex justify-between items-center z-30  py-[20px] bg-[#2b2b2b]'>
-        <div className="flex justify-start items-center pl-[50px]">
+        <div className="flex justify-start items-center md:pl-[40px] pl-6 ">
             <Image src='/icon.svg' width={32} height={32} alt='nav icon' />
             <h1 className='text-2xl font-semibold font-mono pl-3'>NFT Marketplace</h1>
         </div>
-         <div className="block lg:hidden absolute right-8 top-5 " onClick={()=>setOpen(!open)}>
+         <div className="block lg:hidden absolute right-6 top-5 " onClick={()=>setOpen(!open)}>
           {
             open ? <VscChromeClose className="text-white w-10 h-10"/> :   <IoMenu className="text-white w-10 h-10" />
           }

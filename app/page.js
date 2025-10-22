@@ -10,9 +10,9 @@ import Clock from './components/clock/Clock'
 import Footer from './components/footer/Footer'
 export default function Home() {
   return (
-    <div className="lg:bg-[#2b2b2b] md:bg-black sm:bg-green-300  min-w-full z-0  text-white">
+    <div className="bg-[#2b2b2b]   min-w-full z-0  text-white">
       <Navbar />
-      <div className="lg:px-[125px] lg:pt-[80px] md:py-7 md:px-20">
+      <div className="lg:px-[125px] lg:pt-[80px] md:py-7 md:px-20 px-6">
         <div className=" grid grid-cols-1 lg:grid-cols-2 gap-[45px] py-7 ">
           <div className="p-2">
             <h1 className="text-[28px] md:text-[38px] lg:text-[68px] font-[600]  leading-tight text-balance ">Discover <span className=""><br className='hidden lg:block' /></span> Digital Art & <span className=""><br className='hidden lg:block' /></span> Collect NFTs</h1>
@@ -62,7 +62,7 @@ export default function Home() {
 
         {/* 3rd///////////////////////////////// */}
         <div className="lg:py-[80px] md:py-7 ">
-          <div className="flex justify-between items-center">
+          <div className="flex justify-between flex-wrap gap-y-4 items-center">
             <div className="">
               <h1 className="text-[28px] lg:text-[38px] font-[600] ">Top Creators</h1>
               <p className="text-[16px] lg:text-[22px] font-[400] ">Checkout our Weekly Updated Trending Collection</p>
@@ -90,7 +90,7 @@ export default function Home() {
         {/* 4th//////////////////////////////// */}
         <div className="lg:py-[80px] md:py-7">
           <h1 className="text-[28px] lg:text-[38px] font-[600] ">Browse Categories</h1>
-          <div className="grid lg:grid-cols-4 md:grid-cols-4 gap-8 py-10">
+          <div className="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 gap-8 py-10">
             <BrowseCard src='/sky.png' front='/PaintBrush.png' heading='Art' />
             <BrowseCard src='/monkey.png' heading='Collectibles' front='/Swatches.png' />
             <BrowseCard src='/flower.png' heading='Music' front='/MusicNotes.png' />
@@ -128,9 +128,9 @@ export default function Home() {
 
       {/* 6/////////////////// */}
       <div className="bg-[url('/mushrooms.png')] h-[640px] w-full bg-no-repeat bg-cover bg-[center_top_40%]   ">
-        <div className="bg-gradient-to-t from-[#A259FF]/90 to-transparent w-full h-full px-[125px] flex justify-between items-end pb-12">
+        <div className="bg-gradient-to-t from-[#A259FF]/90 to-transparent w-full h-full px-[125px]  flex flex-wrap justify-between items-end  pb-12">
           <div className="">
-            <div className="bg-[#2B2B2B] rounded-[20px] px-[20px] py-[10px] flex items-center w-fit ">
+            <div className="bg-[#2B2B2B] rounded-[20px] px-[20px]  py-[10px] flex items-center w-fit ">
               <Image src='/Avatar Placeholder-1.png' width={24} height={24} alt='Image' />
               <p className="text-[16px] pl-2">Shroomie</p>
             </div>

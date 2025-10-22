@@ -18,7 +18,7 @@ export default function BrowseCard({ src, heading , front }) {
         />
       </div>
 
-      <p className="pt-5 pb-6 pl-[30px] text-[22px] font-semibold">
+      <p className="py-4 text-center  text-[22px] font-semibold">
         {heading}
       </p>
     </div>

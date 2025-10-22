@@ -90,7 +90,7 @@ export default function Home() {
         {/* 4th//////////////////////////////// */}
         <div className="lg:py-[80px] md:py-7">
           <h1 className="text-[28px] lg:text-[38px] font-[600] ">Browse Categories</h1>
-          <div className="grid lg:grid-cols-4 gap-8 py-10">
+          <div className="grid lg:grid-cols-4 md:grid-cols-4 gap-8 py-10">
             <BrowseCard src='/sky.png' front='/PaintBrush.png' heading='Art' />
             <BrowseCard src='/monkey.png' heading='Collectibles' front='/Swatches.png' />
             <BrowseCard src='/flower.png' heading='Music' front='/MusicNotes.png' />
@@ -164,16 +164,16 @@ export default function Home() {
 </div>
 
 {/* 8th/////////////////// */}
-<div className=" lg:p-16 md:py-10 mt-20 lg:mx-[125px] md:px-[30px] bg-[#3B3B3B] rounded-[20px]  grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 lg:gap-20 md:gap-[30px]  ">
+<div className=" lg:p-16 md:py-10 mt-20 md:mx-20 lg:mx-[125px] md:px-[30px] bg-[#3B3B3B] rounded-[20px]  grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 lg:gap-16 md:gap-[30px]  ">
   <div className="">
-      <Image src='/Astronauts.png' className=' w-full h-[310px]  object-cover rounded-[20px]  ' width={240} height={240} alt='Image' />
+      <Image src='/Astronauts.png' className=' w-full h-full max-h-[400px]  object-cover rounded-[20px]  ' width={240} height={240} alt='Image' />
   </div>
-  <div className="p-5">
+  <div className="p-2 flex-col my-auto">
     <h1 className="text-[38px] font-semibold">Join Our Weekly Digest</h1>
     <p className="text-[22px] font-[400]">Get exclusive promotions & updates straight to your inbox.</p>
-    <div className="lg:flex block mt-12">
+    <div className="lg:flex block mt-8">
       <input type="text" name="" id="" className='h-16  pl-5 lg:w-auto w-full text-[16px] font-semibold outline-none text-black rounded-[20px]' placeholder='Enter your email here' />
-      <button className='flex justify-center items-center gap-2 bg-[#A259FF] h-16  px-19 rounded-[20px] lg:relative lg:right-9 lg:mt-0 md:w-full md:mt-3 '><img src="/EnvelopeSimple.png" className='w-[20px] h-[20px] ' alt="Icon" /> <span className="font-semibold text-[16px]">Subscribe</span></button>
+      <button className='flex justify-center items-center gap-2 bg-[#A259FF] h-16 min-w-[120px]  px-19 rounded-[20px] lg:relative lg:right-9 lg:mt-0 md:w-full md:mt-3 '><img src="/EnvelopeSimple.png" className='w-[20px] h-[20px] ' alt="Icon" /> <span className="font-semibold text-[16px]">Subscribe</span></button>
     </div>
   </div>
 

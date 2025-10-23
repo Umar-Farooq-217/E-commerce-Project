@@ -128,7 +128,7 @@ export default function Home() {
 
       {/* 6/////////////////// */}
       <div className="bg-[url('/mushrooms.png')] h-[640px] w-full bg-no-repeat bg-cover bg-[center_top_40%]   ">
-        <div className="bg-gradient-to-t from-[#A259FF]/90 to-transparent w-full h-full px-[125px]  flex flex-wrap justify-between items-end  pb-12">
+        <div className="bg-gradient-to-t from-[#A259FF]/90 to-transparent w-full h-full md:px-[125px] px-10 flex flex-wrap justify-between items-end  pb-12">
           <div className="">
             <div className="bg-[#2B2B2B] rounded-[20px] px-[20px]  py-[10px] flex items-center w-fit ">
               <Image src='/Avatar Placeholder-1.png' width={24} height={24} alt='Image' />
@@ -150,8 +150,8 @@ export default function Home() {
 
 {/* 7///////////////////////// */}
 
-<div className="lg:py-[80px] md:py-10 lg:px-[125px] md:px-20">
-     <h1 className="text-[28px] lg:text-[38px] font-[600] ">How It Works </h1>
+<div className="lg:py-[80px] md:py-10 lg:px-[125px] md:px-20 px-10">
+     <h1 className="text-[28px] lg:text-[38px] font-[600] md:pt-0 pt-10">How It Works </h1>
               <p className="text-[16px] lg:text-[22px] font-[400] ">Find Out How To Get Started</p>
 
               <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-7 mt-12">
@@ -164,7 +164,7 @@ export default function Home() {
 </div>
 
 {/* 8th/////////////////// */}
-<div className=" lg:p-16 md:py-10 mt-20 md:mx-20 lg:mx-[125px] md:px-[30px] bg-[#3B3B3B] rounded-[20px]  grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 lg:gap-16 md:gap-[30px]  ">
+<div className=" lg:p-16 md:py-10 p-10 mt-20 md:mx-20 mx-10 lg:mx-[125px] md:px-[30px] bg-[#3B3B3B] rounded-[20px]  grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 lg:gap-16 md:gap-[30px]  ">
   <div className="">
       <Image src='/Astronauts.png' className=' w-full h-full max-h-[400px]  object-cover rounded-[20px]  ' width={240} height={240} alt='Image' />
   </div>
@@ -173,7 +173,7 @@ export default function Home() {
     <p className="text-[22px] font-[400]">Get exclusive promotions & updates straight to your inbox.</p>
     <div className="lg:flex block mt-8">
       <input type="text" name="" id="" className='h-16  pl-5 lg:w-auto w-full text-[16px] font-semibold outline-none text-black rounded-[20px]' placeholder='Enter your email here' />
-      <button className='flex justify-center items-center gap-2 bg-[#A259FF] h-16 min-w-[120px]  px-19 rounded-[20px] lg:relative lg:right-9 lg:mt-0 md:w-full md:mt-3 '><img src="/EnvelopeSimple.png" className='w-[20px] h-[20px] ' alt="Icon" /> <span className="font-semibold text-[16px]">Subscribe</span></button>
+      <button className='flex justify-center items-center gap-2 bg-[#A259FF] h-16 min-w-[120px]  px-19 rounded-[20px] lg:relative lg:right-9 lg:mt-0 lg:max-w-[200px]  md:w-full w-full mt-3 md:mt-3 '><img src="/EnvelopeSimple.png" className='w-[20px] h-[20px] ' alt="Icon" /> <span className="font-semibold text-[16px]">Subscribe</span></button>
     </div>
   </div>
 

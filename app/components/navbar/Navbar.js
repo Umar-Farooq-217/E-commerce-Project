@@ -14,7 +14,7 @@ export default function Navbar() {
   const [open , setOpen] = useState(false)
  
   return (
-    <nav className='block lg:flex justify-between items-center z-30  py-[20px] bg-[#2b2b2b]'>
+    <nav className='block lg:flex justify-between items-center z-50  py-[20px] bg-[#2b2b2b] '>
         <div className="flex justify-start items-center md:pl-[40px] pl-6 ">
             <Image src='/icon.svg' width={32} height={32} alt='nav icon' />
             <h1 className='text-2xl font-semibold font-mono pl-3'>NFT Marketplace</h1>

@@ -14,7 +14,7 @@ export default function Navbar() {
   const [open , setOpen] = useState(false)
  
   return (
-    <nav className='block lg:flex justify-between items-center z-50  py-[20px] bg-[#2b2b2b] '>
+    <nav className='block lg:flex justify-between items-center z-50  py-[20px] bg-[#2b2b2b] text-white'>
         <div className="flex justify-start items-center md:pl-[40px] pl-6 ">
             <Image src='/icon.svg' width={32} height={32} alt='nav icon' />
             <h1 className='text-2xl font-semibold font-mono pl-3'>NFT Marketplace</h1>
@@ -30,7 +30,7 @@ export default function Navbar() {
             <li className='py-10 lg:py-0   pt-10 lg:pt-0    '><Link className=''  href="/" >Marketplace </Link></li>
             <li className='py-10 lg:py-0   '><Link  href="/" >Rankings </Link></li>
             <li className='py-10 lg:py-0     '><Link  href="/" >Connect a Wallet </Link></li>
-            <li className='py-10 lg:py-0     '><Link  href="/" ><Button className='bg-[#9747FF] px-[30px] py-3 mx-auto ' img='/User.svg' title='Sign Up'/> </Link></li>
+            <li className='py-10 lg:py-0     '><Link  href="/createAccount" ><Button className='bg-[#9747FF] px-[30px] py-3 mx-auto ' img='/User.svg' title='Sign Up'/> </Link></li>
            
         </ul>
       

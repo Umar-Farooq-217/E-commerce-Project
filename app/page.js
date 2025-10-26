@@ -179,8 +179,10 @@ export default function Home() {
 
 </div>
 
+<div className="lg:mt-16 md:mt-10 mt-10">
 
 <Footer/>
+</div>
 
 
 

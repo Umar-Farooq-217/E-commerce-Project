@@ -8,7 +8,7 @@ export default function page() {
         <Navbar/>
         <div className="grid lg:16 md:gap-11 gap-6 md:grid-cols-2 grid-cols-1">
 <div className="">
-  <Image className='w-full h-full object-cover ' src='/twoAstronauts.png' width={400} height={400} alt='Image' />
+  <Image className='w-full lg:h-[691] md:h-[615px] h-[232px] object-cover ' src='/twoAstronauts.png' width={700} height={400} loading='lazy' alt='Image' />
 </div>
 <div className="md:py-20 py-10 md:px-0 px-5 ">
   <h1 className="lg:text-[51px] text-[38px] ">Create Account</h1>
@@ -29,6 +29,7 @@ export default function page() {
       <Image className='w-[20px] h-[20px]  ml-5 ' src='/LockKey.png' width={40} height={40} alt='Image' />
       <input className='text-black text-[16px]  outline-none  ' type="text" placeholder='Confirm Password' />
   </div>
+  <button className=' h-[41px]  md:w-[330px] w-full rounded-[20px] bg-[#A259FF] mt-7'>Create Account</button>
 </div>
         </div>
 

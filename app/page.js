@@ -8,6 +8,7 @@ import DiscoverCard from './components/discoverCard/DiscoverCard'
 import WorksCard from './components/worksCard/WorksCard'
 import Clock from './components/clock/Clock'
 import Footer from './components/footer/Footer'
+import Link from 'next/link';
 export default function Home() {
   return (
     <div className="bg-[#2b2b2b]   min-w-full z-0  text-white">
@@ -37,7 +38,8 @@ export default function Home() {
 
             </div>
           </div>
-          <div className="bg-[#3b3b3b] mb-4 rounded-xl">
+          <div className="bg-[#3b3b3b] mb-4 rounded-xl hover:shadow-[#A259FF] hover:shadow-md overflow-visible cursor-pointer">
+            <Link href='/artist'>
             <Image className='w-full object-cover rounded-tl-xl rounded-tr-xl  h-[401px]' src='/space.png' width={510} height={401} alt="space man Image" />
             <div className=" px-6 py-6 ">
               <h1 className="text-[22px] font-semibold ">Space Walking</h1>
@@ -47,6 +49,7 @@ export default function Home() {
               </div>
 
             </div>
+            </Link>
           </div>
         </div>
         {/* ///////////////////////////////////// */}

@@ -62,7 +62,13 @@ export default function page() {
                 <DiscoverCard img='/galaxy.png' heading='Distant Galaxy' logo='/moon.png' name='MoonDancer' />
                 <DiscoverCard img='/life.png' heading='Life on Edena' logo='/nebulakid.png' name='NebulaKid' />
                 <DiscoverCard img='/astro.png' heading='AstroFiction' logo='/spaceone.png' name='SpaceOne' />
-                <DiscoverCard/>
+                <DiscoverCard img='/crypto.png' heading='CryptoCurrency' logo='/spaceone.png' name='SpaceOne' />
+                <DiscoverCard img='/dog.png' heading='ColourfullDog' logo='/spaceone.png' name='SpaceOne' />
+                <DiscoverCard img='/tales.png' heading='Space Tales' logo='/spaceone.png' name='SpaceOne' />
+                <DiscoverCard img='/cherry.png' heading='Cherry Blossom Girl 034' logo='/spaceone.png' name='SpaceOne' />
+                <DiscoverCard img='/dancing.png' heading='Dancing Robots 275' logo='/spaceone.png' name='SpaceOne' />
+                <DiscoverCard img='/ice.png' heading='IceCream Ape' logo='/spaceone.png' name='SpaceOne' />
+                
               </div>
 
 

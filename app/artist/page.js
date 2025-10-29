@@ -3,6 +3,7 @@ import Navbar from '../components/navbar/Navbar'
 import Footer from '../components/footer/Footer'
 import Image from 'next/image'
 import Button from '../components/button/Button'
+import DiscoverCard from '../components/discoverCard/DiscoverCard'
 
 export default function page() {
   return (
@@ -11,7 +12,7 @@ export default function page() {
 <div className="bg-[url('/ship.png')] h-[370px] w-full bg-center bg-no-repeat bg-cover aspect-video   ">
 <div className="bg-gradient-to-t from-[#A259FF]/90 from-10% to-transparent w-full h-full ">
 </div>
-<Image className='w-[120px] h-[120px] flex items-end relative lg::left-[125px] md:left-20 left-10  top-[-60px]' src='/Avatar.png' width={120} height={120} alt='Image' />
+<Image className='w-[120px] h-[120px] flex items-end relative lg::left-[125px] md:left-20 left-10  top-[-60px]' src='/Avatar.png' width={120} height={120} loading='lazy' alt='Image' />
 
 </div>
 
@@ -55,6 +56,15 @@ export default function page() {
     </div>
 
 </div>
+
+
+    <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-[30px] mt-10 lg:px-[125px] md:px-20 px-10 md:py-20 py-10">
+                <DiscoverCard img='/galaxy.png' heading='Distant Galaxy' logo='/moon.png' name='MoonDancer' />
+                <DiscoverCard img='/life.png' heading='Life on Edena' logo='/nebulakid.png' name='NebulaKid' />
+                <DiscoverCard img='/astro.png' heading='AstroFiction' logo='/spaceone.png' name='SpaceOne' />
+                <DiscoverCard/>
+              </div>
+
 
 
 

@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 export default function TopCard(props) {
   return (
-    <div className='bg-[#3b3b3b] w-full h-auto rounded-[20px] flex lg:block p-3 '>
+    <div className='bg-[#3b3b3b] hover:bg-black transi ease-in duration-300 w-full h-auto rounded-[20px] flex lg:block p-3 '>
       <div className="flex gap-2 items-center  lg:block justify-center ">
         <div className="md:relative">
 

@@ -10,7 +10,7 @@ export default function BrowseCard({ src, heading , front }) {
         style={{ "--front-image": `url(${front})` }}
       >
         <Image
-          className="w-full h-[240px] object-cover blur-sm"
+          className="w-full h-[240px] object-cover blur-sm hover:blur-0 transition-all ease-in duration-200"
           width={500}
           height={240}
           alt={heading}

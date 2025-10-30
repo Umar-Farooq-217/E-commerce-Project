@@ -20,7 +20,7 @@ export default function Home() {
             <p className="text-[22px] font-[400] pt-3">NFT marketplace UI created with Anima for Figma. <br className='hidden lg:block' />Collect, buy and sell art from more than 20k NFT artists.</p>
             <div className="mt-6">
 
-              <Button className='bg-[#A259FF] h-[60px] w-[224px] ' img='RocketLaunch.svg' title='Get Started' />
+              <Button className='bg-[#A259FF] h-[60px] w-[224px] hover:scale-105 transition-all ease-in' img='RocketLaunch.svg' title='Get Started' />
             </div>
             <div className='grid grid-cols-3 mt-6'>
               <div className="">
@@ -38,8 +38,8 @@ export default function Home() {
 
             </div>
           </div>
-          <div className="bg-[#3b3b3b] mb-4 rounded-xl hover:shadow-[#A259FF] hover:shadow-md overflow-visible cursor-pointer">
-            <Link href='/artist'>
+          <div className="bg-[#3b3b3b] mb-4 rounded-xl  overflow-visible cursor-pointer">
+           
             <Image className='w-full object-cover rounded-tl-xl rounded-tr-xl  h-[401px]' src='/space.png' width={510} height={401} alt="space man Image" />
             <div className=" px-6 py-6 ">
               <h1 className="text-[22px] font-semibold ">Space Walking</h1>
@@ -49,7 +49,7 @@ export default function Home() {
               </div>
 
             </div>
-            </Link>
+         
           </div>
         </div>
         {/* ///////////////////////////////////// */}
@@ -71,7 +71,7 @@ export default function Home() {
               <p className="text-[16px] lg:text-[22px] font-[400] ">Checkout our Weekly Updated Trending Collection</p>
 
             </div>
-            <Button className='border-[#A259FF] border-[2px] px-[50px] py-3 ' img='/b rocket.svg' title='View Rankings' />
+            <Button className='border-[#A259FF] border-[2px] px-[50px] py-3 hover:scale-105 transition-all ease-in' img='/b rocket.svg' title='View Rankings' />
           </div>
 
           <div className="grid gap-6 lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 mt-16">
@@ -115,7 +115,7 @@ export default function Home() {
               <p className="text-[16px] lg:text-[22px] font-[400] ">Explore New Trending NFTs</p>
             </div>
             <div className="">
-              <Button className='border-[#A259FF] border-[2px] px-[40px] py-3 ' img='/Eye.png' title='See All' />
+              <Button className='border-[#A259FF] border-[2px] px-[40px] py-3 hover:scale-105 transition-all ease-in' img='/Eye.png' title='See All' />
             </div>
           </div>
 
@@ -139,7 +139,7 @@ export default function Home() {
             </div>
             <h1 className="lg:text-[51px] text-[38px] font-[600] py-6">Magic Mashrooms</h1>
             <div className="">
-              <Button className='bg-white px-[40px] py-3  ' textColor='text-black' img='/Eye.png' title='See NFT' />
+              <Button className='bg-white px-[40px] py-3 hover:scale-105 transition-all ease-in ' textColor='text-black' img='/Eye.png' title='See NFT' />
             </div>
           </div>
           <div className="">

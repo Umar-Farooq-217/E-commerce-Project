@@ -1,7 +1,8 @@
 'use client'
 import React, { useEffect, useState } from 'react'
+import Button from '../button/Button'
 
-export default function Clock() {
+export default function Clock(props) {
   const [time, setTime] = useState(new Date())
 
   useEffect(() => {
@@ -20,8 +21,9 @@ export default function Clock() {
   const seconds = formatTime(time.getSeconds())
 
   return (
-    <div className="flex justify-center items-cente bg-[#2B2B2B] bg-opacity-50 text-white  rounded-[20px] ">
-      <div className="text-6xl font-mono p-[30px] ">
+    <div className={` text-white  rounded-[20px] p-[30px] md:w-auto w-full ${props.className}` }>
+      <div className={`flex justify-center items-cente bg-opacity-50    ` }>
+      <div className="text-6xl font-mono  ">
         <p className="text-[12px]">Auction Ends in : </p>
         <div className="flex pt-4">
             <p className="text-[38px] font-bold ">{hours} : <br /> <span className="text-[12px] leading-none ">Hours</span></p>
@@ -31,6 +33,10 @@ export default function Clock() {
         </div>
        
       </div>
+      </div>
+      {
+          props.title && <Button className='h-[60px] rounded-[20px] bg-[#A259FF]  w-full mt-4' title={props.title} />
+        }
     </div>
   )
 }

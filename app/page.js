@@ -20,7 +20,7 @@ export default function Home() {
             <p className="text-[22px] font-[400] pt-3">NFT marketplace UI created with Anima for Figma. <br className='hidden lg:block' />Collect, buy and sell art from more than 20k NFT artists.</p>
             <div className="mt-6">
 
-              <Button className='bg-[#A259FF] h-[60px] w-[224px] hover:scale-105 transition-all ease-in' img='RocketLaunch.svg' title='Get Started' />
+             <Link href='/artist'> <Button className='bg-[#A259FF] h-[60px] w-[224px] hover:scale-105 transition-all ease-in' img='RocketLaunch.svg' title='Get Started' /></Link>
             </div>
             <div className='grid grid-cols-3 mt-6'>
               <div className="">
@@ -115,7 +115,7 @@ export default function Home() {
               <p className="text-[16px] lg:text-[22px] font-[400] ">Explore New Trending NFTs</p>
             </div>
             <div className="">
-              <Button className='border-[#A259FF] border-[2px] px-[40px] py-3 hover:scale-105 transition-all ease-in' img='/Eye.png' title='See All' />
+               <Link href='/nft'><Button className='border-[#A259FF] border-[2px] px-[40px] py-3 hover:scale-105 transition-all ease-in' img='/Eye.png' title='See All' /></Link>
             </div>
           </div>
 
@@ -139,11 +139,11 @@ export default function Home() {
             </div>
             <h1 className="lg:text-[51px] text-[38px] font-[600] py-6">Magic Mashrooms</h1>
             <div className="">
-              <Button className='bg-white px-[40px] py-3 hover:scale-105 transition-all ease-in ' textColor='text-black' img='/Eye.png' title='See NFT' />
+             <Link href='/nft'></Link> <Button className='bg-white px-[40px] py-3 hover:scale-105 transition-all ease-in ' textColor='text-black' img='/Eye.png' title='See NFT' />
             </div>
           </div>
           <div className="">
-            <Clock/>
+            <Clock className='bg-[#2B2B2B] '/>
           </div>
 
 

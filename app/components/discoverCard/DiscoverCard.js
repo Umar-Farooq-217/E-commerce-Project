@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 export default function DiscoverCard(props) {
   return (
-    <div className='hover:scale-105 hover:bg-black transition-all ease-in  rounded-[20px]'>
+    <div className='hover:scale-105  transition-all ease-in  rounded-[20px]'>
      
         <Image className='w-full h-[296px] rounded-tl-[20px] rounded-tr-[20px] object-cover ' src={props.img} width={400} height={400} alt='Image' />
         <div className="bg-[#3b3b3b]  pt-[20px] px-[30px] pb-[25px] rounded-bl-[20px] rounded-br-[20px] ">

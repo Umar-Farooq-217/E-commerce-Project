@@ -73,10 +73,10 @@ export default function page() {
                 </div>
            
 
-            <div className="lg:px-[125px] md:px-20 px-10 md:py-10  py-5 bg-green-500">
+            <div className="lg:px-[125px] md:px-20 px-10 md:py-10  py-5 ">
                 <div className="flex justify-between items-center ">
                     <h1 className="lg:text-[38px] text-[28px] font-semibold  ">More From This Artist</h1>
-                    <Link className='md:block hidden' href='/'> <Button img='/ArrowRight.png' title='Go to Artist Page' className='border-[2px] border-[#A259FF] h-[60px] px-12  ' /></Link>
+                    <Link className='md:block hidden' href='/artist'> <Button img='/ArrowRight.png' title='Go to Artist Page' className='border-[2px] border-[#A259FF] h-[60px] px-12  ' /></Link>
 
                 </div>
                 <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 gap-y-10 py-12">
@@ -92,7 +92,7 @@ export default function page() {
                     
                 </div>
                 <div className="">
-                    <Link className='md:hidden block ' href='/'> <Button img='/ArrowRight.png' title='Go to Artist Page' className='border-[2px] border-[#A259FF] h-[60px] px-12  flex mx-auto' /></Link>
+                    <Link className='md:hidden block ' href='/artist'> <Button img='/ArrowRight.png' title='Go to Artist Page' className='border-[2px] border-[#A259FF] h-[60px] px-12  flex mx-auto' /></Link>
                 </div>
 
 

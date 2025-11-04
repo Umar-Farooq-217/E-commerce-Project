@@ -71,7 +71,7 @@ export default function Home() {
               <p className="text-[16px] lg:text-[22px] font-[400] ">Checkout our Weekly Updated Trending Collection</p>
 
             </div>
-            <Button className='border-[#A259FF] border-[2px] px-[50px] py-3 hover:scale-105 transition-all ease-in' img='/b rocket.svg' title='View Rankings' />
+          <Link href='/rankings'> <Button className='border-[#A259FF] border-[2px] px-[50px] py-3 hover:scale-105 transition-all ease-in' img='/b rocket.svg' title='View Rankings' /></Link> 
           </div>
 
           <div className="grid gap-6 lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 mt-16">

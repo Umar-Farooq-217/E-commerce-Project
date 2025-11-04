@@ -28,7 +28,7 @@ export default function page() {
                     </div>
 
                     <div className="">
-                        {/* <Ranking img='/Artist Avatar (2).png' name='Jaydon Ekstrom' cout='1' />
+                        <Ranking img='/Artist Avatar (2).png' name='Jaydon Ekstrom' cout='1' />
                         <Ranking img='/Artist Avatar (1).png' name='Ruben Carder' cout='2' />
                         <Ranking img='/Artist Avatar.png' name='Alfredo Septimus' cout='3' />
                         <Ranking img='/Avatar Placeholder-3.png' name='Kiana Donin' cout='4' />
@@ -47,7 +47,7 @@ export default function page() {
                         <Ranking img='/Artist Avatar.png' name='Alfredo Septimus' cout='17' />
                         <Ranking img='/Avatar Placeholder-3.png' name='Kiana Donin' cout='18' />
                         <Ranking img='/Avatar Placeholder-4.png' name='Angel Luben' cout='19' />
-                        <Ranking img='/Avatar Placeholder-5.png' name='Davis Workman' cout='20' /> */}
+                        <Ranking img='/Avatar Placeholder-5.png' name='Davis Workman' cout='20' />
                       
 
                         

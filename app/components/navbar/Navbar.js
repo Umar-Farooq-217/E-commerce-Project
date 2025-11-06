@@ -28,9 +28,9 @@ export default function Navbar() {
         <ul className={`block w-full lg:w-auto text-center  lg:flex justify-center items-center list-none text-md gap-12 font-[600] mx-0 lg:mx-[50px]  bg-[#2b2b2b]  
           absolute lg:static  transition-all ease-out duration-700 z-40  ${open ? 'top-[70px] ': 'top-[-700px]' }  `}>
             <li className='py-10 lg:py-0   pt-10 lg:pt-0    '><Link className=''  href="/marketplace" >Marketplace </Link></li>
-            <li className='py-10 lg:py-0   '><Link  href="/" >Rankings </Link></li>
+            <li className='py-10 lg:py-0   '><Link  href="/rankings" >Rankings </Link></li>
             <li className='py-10 lg:py-0     '><Link  href="/connectWallet" >Connect a Wallet </Link></li>
-            <li className='py-10 lg:py-0     '><Link  href="/createAccount" ><Button className='bg-[#9747FF] px-[30px] py-3 mx-auto hover:scale-105 transition-all ease-in' img='/User.svg' title='Sign Up'/> </Link></li>
+            <li className='py-10 lg:py-0     '><Link  href="/createAccount" ><Button className='bg-[#9747FF] px-[30px] py-3 mx-auto hover:scale-105 transition-all ease-in' img='/User.svg' title='Login'/> </Link></li>
            
         </ul>
       
